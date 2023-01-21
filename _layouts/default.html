@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+    <header>
+      {% include navigation.html %}
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description }}</p>
+    </header>
+
+    <main>
+
+      {{ content }}
+
+    </main>
+
+    <footer>
+        <p>Connect with me on <a href="https://github.com/anitanotto">Github</a>, <a href="https://www.linkedin.com/in/anitanotto/">Linkedin</a>, and <a href="https://twitter.com/anitanotto">Twitter</a>.
+    </footer>
+
+  </body>
+</html>
