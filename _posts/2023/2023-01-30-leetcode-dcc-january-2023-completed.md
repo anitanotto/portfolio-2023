@@ -4,7 +4,7 @@ title: Leetcode DCC January 2023 Completed!
 description: Here's what I learned...
 ---
 {: .large}
-My last answer for this month's challenge just got accepted - here's what I learned for the momth.
+My last answer for this month's challenge just got accepted - here's what I learned.
 
 First off, there were so many problems in the month that could be solved by depth first search - this really reinforced how vast the number of problems you can solve with just one algorithm for me. It was nice that the early problems eased you into using it in more complex ways, but, I lost count of how many you could use dfs to solve.
 
