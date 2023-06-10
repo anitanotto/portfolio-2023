@@ -3,19 +3,202 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
+  <body class="movingStars">
 
-    <header>
-      {% include navigation.html %}
-      <h1>{{ page.title }}</h1>
-      <p>{{ page.description }}</p>
-    </header>
+<header class="container">
+  <div class="sliding-background crt">
+    <div class="navContainer">
+      <div class="navArt">
+          <img id="char" src="/assets/images/char.png">
+      <img id="room" src="/assets/images/room.png">
+      <nav class="textBox">Anita<br>&nbsp;&nbsp;Notto.com<br><a href="/">>Home</a>&nbsp;<a href="/blog">>Blog</a></nav>
+      </div>
+      
+      <div class="slidingTextContainer">
+        <div class="sliding-text">
+        </div>
+      </div>
+    </div>
+
+    </div>
+</header>
+
+
 
     <main>
 
       {{ content }}
 
     </main>
+    
+<div id="pet" class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      FunnyCat.exe
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <div class="status-bar">
+      <p id="necomood" class="status-bar-field">Mood: 🩷🩷🩷</p>
+      <p id="necohunger" class="status-bar-field">Hunger: 🍔🍔🍔</p>
+      <p id="necomoney" class="status-bar-field">Money: $5</p>
+    </div>
+    <div id="necobg">
+      <img id="neco" src="/assets/images/neco/necodance2.gif">
+    </div>
+    <ul id="necoText" class="tree-view">
+      <li id="necoText1">Dance Dance</li>
+      <li id="necoText2"><strong style="color: purple">✨ Revolution ✨</strong></li>
+    </ul>
+    <section class="field-row" style="justify-content: space-between">
+      <button id="necochat">Chat</button>
+      <button id="necofeed">Feed</button>
+      <button id="necogamble">Gamble</button>
+    </section>
+  </div>
+</div>
+
+<div id="video" class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      Some Kinda Video?
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+      <img id="hack" src="/assets/images/hackertyper.webp">
+  </div>
+</div>
+
+<div id="construction" class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      WIP.exe
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <img id="construct" src="https://i.ibb.co/FBh6FZz/construction.webp">
+  </div>
+</div>
+
+<div id="error" class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      YUCK.exe
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <img id="yuk" src="/assets/images/yuk.png">
+    <p>Eww, I don't like how this page looks!</p>
+    <section class="field-row" style="justify-content: flex-end">
+      <button id="yukButton">Make It Boring</button>
+      <button id="yumButton">Make It Exciting</button>
+    </section>
+  </div>
+</div>
+
+<div id="music" class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      Jukebox
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <div id="playlist" class="sunken-panel">
+      <table class="interactive">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="song1" class="highlighted">
+            <td>GOTHIC SYSTEM 2011</td>
+            <td>DJテクノウチ</td>
+            <td>6:20</td>
+          </tr>
+          <tr id="song2">
+            <td>千年战争～</td>
+            <td>疯帽子茶会xClip Sounds</td>
+            <td>4:15</td>
+          </tr>
+          <tr id="song3">
+            <td>あの賑やかな市場は今どこに</td>
+            <td>ZUN</td>
+            <td>4:29</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="vol" class="field-row">
+      <label for="volume">Volume:</label>
+      <label for="volume">Low</label>
+      <input id="volume" type="range" min="1" max="11" value="5" />
+      <label for="volume">High</label>
+    </div>
+
+    <section class="field-row" style="justify-content: flex-end">
+      <button id="playButton">Play</button>
+      <button id="pauseButton">Pause</button>
+    </section>
+  </div>
+</div>
+
+
+<div id="contactForm" class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      Contact Me!
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <form id="cform" class="contact" name="contact" method="POST" action="/submit" netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded" netlify="">
+      <div class="field-row-stacked" style="width: 200px">
+        <label for="text18">Your Name:</label>
+        <input required="" name="name" id="text18" type="text" />
+      </div>
+      <div class="field-row-stacked" style="width: 200px">
+        <label for="text19">Your Email Address:</label>
+        <input required="" name="email" id="text19" type="email" />
+      </div>
+      <div class="field-row-stacked" style="width: 200px">
+        <label for="text20">Your Message:</label>
+        <textarea required="" name="message" id="text20" rows="8"></textarea>
+        <p style="display:none;"><label>Don't fill this out:<input name="bot-field"></label></p>
+      </div>
+
+      <section class="field-row" style="justify-content: flex-end">
+        <input type="submit" name="submit" value="Send!">
+      </section>
+    </form>
+  </div>
+
+</div>
 
     <footer>
         <p>Connect with me on <a href="https://github.com/anitanotto">Github</a>, <a href="https://www.linkedin.com/in/anitanotto/">Linkedin</a>, and <a href="https://twitter.com/anitanotto">Twitter</a>.<br>
