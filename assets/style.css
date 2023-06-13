@@ -414,7 +414,7 @@ header img {
 }
 
 body {
-    background: url("images/stars.gif")
+    background: url("images/starsgif.webp")
 }
 
 /* Cards */
@@ -425,7 +425,7 @@ body {
   width: 266px;
 }
 
-#neco {
+.neco {
   width: 150px;
   opacity: 1;
   display: block;
@@ -535,6 +535,7 @@ button {
 
 @media screen and (max-width: 1600px) {
 }
+
 .hidden {
   display: none;
 }
@@ -544,7 +545,7 @@ button {
   animation: none !important;
 }
 .movingStars {
-    background: url(images/stars.gif);
+    background: url(images/starsgif.webp);
 }
 .stillStars {
     background: url("images/stars.webp");

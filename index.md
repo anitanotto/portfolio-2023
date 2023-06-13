@@ -3,9 +3,9 @@ title: Hi, I'm Anita!
 description: Full-stack Web Developer & Freelancer
 layout: default
 ---
-<div class="pfp">
+<!-- <div class="pfp">
     <img class="pfbg" src="assets/images/pfpr.webp">
-</div>
+</div> -->
 
 {: .large}
 I'm a software engineer based in Central Virginia with experience working for non-profits and small businesses and I'm looking for new opportunities. 
@@ -21,15 +21,15 @@ If you need a website or web application built, or you'd like to give me a refer
 ## Recent Projects
 
 **Magical Merchant**
-![Magical Merchant](/assets/images/magicalmerchant.webp)
+<img class="normalImg" alt="Screenshot of Magical Merchant" src="/assets/images/magicalmerchant.webp">
 A full-stack point of sale web app that you can use to take card payments without any extra hardware, even on mobile! The live site is available [here](https://magical-merchant.onrender.com/) and the repository is [here](https://github.com/anitanotto/magical-merchant).
 
 **Guilty Gear Strive Frame Data API**
-![Guilty Gear Strive Frame Data](/assets/images/ggst-framedata.webp)
+<img class="normalImg" alt="Screenshot of Guilty Gear Frame Data API App" src="/assets/images/ggst-framedata.webp">
 A RESTful API serving frame data, with a script to scrape new data when it is updated and an app to display the data. The live site is available [here](https://ggst-framedata.onrender.com/) and the repository is [here](https://github.com/anitanotto/ggst-framedata).
 
 **The Gallery on 15**
-![The Gallery on 15](/assets/images/gallery-on-15.webp)
+<img class="normalImg" alt="Screenshot of The Gallery on 15's Webpage" src="/assets/images/gallery-on-15.webp">
 A local antique store commissioned me to build their first website. Work in progress, but the repository is available [here](https://github.com/anitanotto/the-gallery-on-15).
 
 **Other clients** - I've volunteered with [48in48](https://48in48.org/) to work on teams to help build sites for the [Atlanta International Night Market](https://atlnightmarket.org/) and [Decatur Arts Alliance](https://decaturartsalliance.org/).

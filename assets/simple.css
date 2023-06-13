@@ -32,7 +32,7 @@
     --text-light: #ababab;
     --accent: #ffb300;
     --code: #f06292;
-    --preformatted: #ccc;
+    --preformatted: #000;
     --disabled: #111;
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
@@ -387,7 +387,7 @@ mark {
   color: black;
 }
 
-img:not(#hack),
+.normalImg,
 video {
   max-width: 100%;
   height: auto;
