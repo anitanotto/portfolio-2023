@@ -426,7 +426,8 @@ body {
 }
 
 .neco {
-  width: 150px;
+  height: 150px;
+  max-width: 100%;
   opacity: 1;
   display: block;
   margin: 0 auto;
@@ -445,8 +446,8 @@ body {
 }
 
 #video {
-  width: 260px;
-  --target : calc(100% - 178.88px - 1rem);
+  width: 331px;
+  --target : calc(100% - 224px - 1rem);
   top: var(--target);
   right: 1rem;
   z-index: 7;
@@ -513,7 +514,7 @@ body {
   cursor: grab;
 }
 
-.window {
+.floatingWindow {
   z-index: 10;
   display: none;
 }
@@ -527,7 +528,7 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
-  .window {
+  .floatingWindow {
     display: block;
     position: fixed;
   }
@@ -553,4 +554,22 @@ button {
 
 input:not([type=submit]), textarea {
     color: #222;
+}
+
+.floatingWindow .field-row-stacked {
+    width: 100%;
+}
+
+#cformMobile {
+    color: #222;
+}
+
+#necomood {
+    width: 82.64px;
+    height: 17px
+}
+
+#necohunger {
+    width: 93.39px;
+    height: 17px;
 }
