@@ -3,44 +3,96 @@ title: Hi, I'm Anita!
 description: Full-stack Web Developer & Freelancer
 layout: default
 ---
-<div class="pfp">
+<!-- <div class="pfp">
     <img class="pfbg" src="assets/images/pfpr.webp">
-</div>
+</div> -->
 
 {: .large}
-I'm a software engineer based in Central Virginia with experience working for non-profits and small businesses and I'm looking for new opportunities. 
+Hi, I'm Anita - a software engineer based in central Virginia looking for new opportunities.
 
-I specialize in Javascript development using MongoDB, Express.js, React.js and Node.js. But, my greatest skill is learning new tech stacks quickly and efficiently, and I'm looking to join a new team where I can learn more and continue to grow as an engineer.
+I love the internet, so JavaScript is my strongest language. But, I'm always working on translating code from other languages and learning new frameworks, so my true specialty is learning new tech quickly and efficiently.
 
-I enjoy making websites with minimalist layouts so they are both beautiful and efficent.
+I come from a customer service background, so I know all about what it's like to have to use inadequate software at work - I knew with this experience and my coding skills I could build something better myself, and that idea became my main project - "Magical Merchant" :
 
-Feel free to connect with me on [Github](https://github.com/anitanotto), [Linkedin](https://www.linkedin.com/in/anitanotto/), and [Twitter](https://twitter.com/anitanotto).
+<div class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      Magical Merchant
+    </div>
 
-If you need a website or web application built, or you'd like to give me a referral to a position at your company - [Contact Me!](#cform)
+    <div class="title-bar-controls">
+    </div>
+  </div>
+  <div class="window-body">
+<img class="normalImg" alt="Screenshot of Magical Merchant" src="/assets/images/mm.gif">
+</div>
+</div>
+A point of sale web application that you can use to take card payments without any extra hardware on any device that can run a browser, even mobile! The live site is available [here](https://magical-merchant.onrender.com/) and the code repository is [here](https://github.com/anitanotto/magical-merchant).
 
-## Recent Projects
+#### Here are some of my personal and freelance projects:
+<div class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      The Gallery on 15
+    </div>
 
-**Magical Merchant**
-![Magical Merchant](/assets/images/magicalmerchant.webp)
-A full-stack point of sale web app that you can use to take card payments without any extra hardware, even on mobile! The live site is available [here](https://magical-merchant.onrender.com/) and the repository is [here](https://github.com/anitanotto/magical-merchant).
+    <div class="title-bar-controls">
+    </div>
+  </div>
+  <div class="window-body">
+<img class="normalImg" alt="Screenshot of The Gallery on 15's Webpage" src="/assets/images/gallery-on-15.webp">
+</div>
+</div>
+A local antique store commissioned me to build their first website. Work in progress, but the code repository is available [here](https://github.com/anitanotto/the-gallery-on-15).
 
-**Guilty Gear Strive Frame Data API**
-![Guilty Gear Strive Frame Data](/assets/images/ggst-framedata.webp)
-A RESTful API serving frame data, with a script to scrape new data when it is updated and an app to display the data. The live site is available [here](https://ggst-framedata.onrender.com/) and the repository is [here](https://github.com/anitanotto/ggst-framedata).
+<div class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      Guilty Gear Strive Frame Data API
+    </div>
 
-**The Gallery on 15**
-![The Gallery on 15](/assets/images/gallery-on-15.webp)
-A local antique store commissioned me to build their first website. Work in progress, but the repository is available [here](https://github.com/anitanotto/the-gallery-on-15).
+    <div class="title-bar-controls">
+    </div>
+  </div>
+  <div class="window-body">
+<img class="normalImg" alt="Screenshot of Guilty Gear Frame Data API App" src="/assets/images/gg.gif">
+</div>
+</div>
+A RESTful API serving frame data, with a script to scrape new data when it is updated and an app to display the data. The live site is available [here](https://ggst-framedata.onrender.com/) and the code repository is [here](https://github.com/anitanotto/ggst-framedata).
 
-**Other clients** - I've volunteered with [48in48](https://48in48.org/) to work on teams to help build sites for the [Atlanta International Night Market](https://atlnightmarket.org/) and [Decatur Arts Alliance](https://decaturartsalliance.org/).
+**Some of my other clients** - I've volunteered with [48in48](https://48in48.org/) to work on teams to help build sites for the [Atlanta International Night Market](https://atlnightmarket.org/) and [Decatur Arts Alliance](https://decaturartsalliance.org/).
 
 ## Contact Me!
 
-Let me know if you need a website, have a job opportunity, or just want to chat.
-<form id="cform" class="contact" name="contact" method="POST" action="/submit" netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded" netlify>
-    <input required type="text" name="name" placeholder="Your Name">
-    <input required type="text" name="email" placeholder="Your Email">
-    <textarea required name="message" placeholder="Your Message"></textarea>
-    <p style="display:none;"><label>Don't fill this out:<input name="bot-field"></label></p>
-    <input type="submit" name="submit" value="Send Message">
-</form>
+Let me know if you have a project or opportunity that you think would be a good fit for me, or if you want to chat about arcade games or manga:
+
+<div id="contactFormMobile" class="window" style="position: static;">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      Contact Me!
+    </div>
+
+    <div class="title-bar-controls">
+    </div>
+  </div>
+  <div class="window-body">
+    <form id="cformMobile" class="contact" name="contact" method="POST" action="/submit" netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded" netlify="">
+      <div class="field-row-stacked">
+        <label for="text18">Your Name:</label>
+        <input required="" name="name" id="text18" type="text" />
+      </div>
+      <div class="field-row-stacked">
+        <label for="text19">Your Email Address:</label>
+        <input required="" name="email" id="text19" type="email" />
+      </div>
+      <div class="field-row-stacked">
+        <label for="text20">Your Message:</label>
+        <textarea required="" name="message" id="text20" rows="8"></textarea>
+        <p style="display:none;"><label>Don't fill this out:<input name="bot-field"></label></p>
+      </div>
+
+      <section class="field-row" style="justify-content: flex-end">
+        <input type="submit" name="submit" value="Send!">
+      </section>
+    </form>
+  </div>

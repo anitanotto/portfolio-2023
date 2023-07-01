@@ -3,19 +3,191 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
+  <body class="movingStars">
 
-    <header>
-      {% include navigation.html %}
-      <h1>{{ page.title }}</h1>
-      <p>{{ page.description }}</p>
-    </header>
+<header class="container">
+  <div class="sliding-background crt">
+    <div class="navContainer">
+      <div class="navArt">
+          <img id="char" alt="Pixel Art Anita" src="/assets/images/char.png">
+          <img id="room" alt="Pixel Art Computer Room" src="/assets/images/room.png">
+      <nav class="textBox">Anita<br>&nbsp;&nbsp;Notto.com<br><a href="/">>Home</a>&nbsp;<a href="/blog">>Blog</a></nav>
+      </div>
+      
+      <div class="slidingTextContainer">
+        <div class="sliding-text">
+        </div>
+      </div>
+    </div>
+
+    </div>
+</header>
+
+
 
     <main>
 
       {{ content }}
 
     </main>
+    
+<div id="pet" class="window floatingWindow">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      FunnyCat.exe
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <div class="status-bar">
+      <p id="necomood" class="status-bar-field">Mood: 🩷🩷🩷</p>
+      <p id="necohunger" class="status-bar-field">Hunger: 🍔🍔🍔</p>
+      <p id="necomoney" class="status-bar-field">$5</p>
+    </div>
+    <div id="necobg">
+      <img id="pog" class="neco" alt="Neco Arc Greeting You" src="/assets/images/neco/necopog.webp">
+      <img id="chill" class="hidden neco" src="/assets/images/neco/necochill.webp">
+      <img id="dance1" class="hidden neco" src="/assets/images/neco/necodance1.webp">
+      <img id="dance2" class="hidden neco" src="/assets/images/neco/necodance2.webp">
+      <img id="dodge" class="hidden neco" src="/assets/images/neco/necododge.webp">
+      <img id="eat" class="hidden neco" src="/assets/images/neco/necoeat.webp">
+      <img id="escape" class="hidden neco" src="/assets/images/neco/necoescape.webp">
+      <img id="flip" class="hidden neco" src="/assets/images/neco/necoflip.webp">
+      <img id="gaze" class="hidden neco" src="/assets/images/neco/necogaze.webp">
+      <img id="gendo" class="hidden neco" src="/assets/images/neco/necogendo.webp">
+      <img id="laugh" class="hidden neco" src="/assets/images/neco/necolaugh.webp">
+      <img id="look" class="hidden neco" src="/assets/images/neco/necolook.webp">
+      <img id="noodle" class="hidden neco" src="/assets/images/neco/neconoodle.webp">
+      <img id="rage" class="hidden neco" src="/assets/images/neco/necorage.webp">
+      <img id="run" class="hidden neco" src="/assets/images/neco/necorun.webp">
+      <img id="sad" class="hidden neco" src="/assets/images/neco/necosad.webp">
+      <img id="shock" class="hidden neco" src="/assets/images/neco/necoshock.webp">
+      <img id="shrug" class="hidden neco" src="/assets/images/neco/necoshrug.webp">
+      <img id="smug" class="hidden neco" src="/assets/images/neco/necosmug.webp">
+      <img id="spicy" class="hidden neco" src="/assets/images/neco/necospicy.webp">
+      <img id="sus" class="hidden neco" src="/assets/images/neco/necosus.webp">
+      <img id="think" class="hidden neco" src="/assets/images/neco/necothink.webp">
+      <img id="uppies" class="hidden neco" src="/assets/images/neco/necouppies.webp">
+      <img id="what" class="hidden neco" src="/assets/images/neco/necowhat.webp">
+      <img id="wink" class="hidden neco" src="/assets/images/neco/necowink.webp">
+    </div>
+    <ul id="necoText" class="tree-view">
+      <li id="necoText1">With a flash of lightning, the cat finally arrives!</li>
+      <li id="necoText2">Do not doubt your eyes! This is real.</li>
+    </ul>
+    <section id="necoButtons" class="field-row" style="justify-content: space-between">
+      <button id="necochat">Chat</button>
+      <button id="necofeed">Feed ($5)</button>
+      <button id="necogamble">Gamble ($5)</button>
+    </section>
+  </div>
+</div>
+
+<div id="video" class="window floatingWindow">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      Melty T.V.
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+<script defer type="application/javascript" src="https://embed.nicovideo.jp/watch/sm12211506/script?w=320&h=180"></script><noscript><a href="https://www.nicovideo.jp/watch/sm12211506">JOYBOX メルティブラッドAACC　対戦動画　no2</a></noscript>
+  </div>
+</div>
+
+<div id="construction" class="window floatingWindow">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      GeoCities Memorial
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <img id="construct" alt="GeoCities Under Construction Gif" src="https://i.ibb.co/FBh6FZz/construction.webp">
+  </div>
+</div>
+
+<div id="error" class="window floatingWindow">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      YUCK.exe
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <img id="yuk" alt="Mr. Yuk Icon" src="/assets/images/yuk.png">
+    <p>Eww, I don't like how this page looks!</p>
+    <section class="field-row" style="justify-content: flex-end">
+      <button id="yukButton">Disable Animations</button>
+      <button id="yumButton">Enable Animations</button>
+    </section>
+  </div>
+</div>
+
+<div id="music" class="window floatingWindow">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      Favorite Song of the Moment:
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div>
+
+  </div>
+  <div class="window-body">
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2602614732/size=small/bgcol=ffffff/linkcol=333333/artwork=none/track=2055017371/transparent=true/" seamless><a href="https://technorch.bandcamp.com/album/a-friend">全部僕が悪い 〜A Friend〜 by 九十九音夢 (Tsukumonemu)</a></iframe>
+
+  </div>
+</div>
+
+
+<div id="contactForm" class="window floatingWindow">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      Contact Me!
+    </div>
+
+    <div class="title-bar-controls">
+      <button class="close" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="window-body">
+    <form id="cform" class="contact" name="contact" method="POST" action="/submit" netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded" netlify="">
+      <div class="field-row-stacked" style="width: 200px">
+        <label for="text18">Your Name:</label>
+        <input required="" name="name" id="text18" type="text" />
+      </div>
+      <div class="field-row-stacked" style="width: 200px">
+        <label for="text19">Your Email Address:</label>
+        <input required="" name="email" id="text19" type="email" />
+      </div>
+      <div class="field-row-stacked" style="width: 200px">
+        <label for="text20">Your Message:</label>
+        <textarea required="" name="message" id="text20" rows="8"></textarea>
+        <p style="display:none;"><label>Don't fill this out:<input name="bot-field"></label></p>
+      </div>
+
+      <section class="field-row" style="justify-content: flex-end">
+        <input type="submit" name="submit" value="Send!">
+      </section>
+    </form>
+  </div>
+</div>
 
     <footer>
         <p>Connect with me on <a href="https://github.com/anitanotto">Github</a>, <a href="https://www.linkedin.com/in/anitanotto/">Linkedin</a>, and <a href="https://twitter.com/anitanotto">Twitter</a>.<br>
