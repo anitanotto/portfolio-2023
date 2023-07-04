@@ -20,7 +20,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url("/assets/images/pixeltile.png") repeat;
+          background: url("http://anitanotto.com/assets/images/pixeltile.png") repeat;
           -webkit-animation: bgScroll 30s steps(100, end) infinite;
           animation: bgScroll 30s steps(100, end) infinite;
           height: 100%;
@@ -54,7 +54,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url("/assets/images/wordtile.png") repeat;
+          background: url("http://anitanotto.com/assets/images/wordtile.png") repeat;
           -webkit-animation: textScroll 30s steps(100, end) infinite;
           animation: textScroll 30s steps(100, end) infinite;
           overflow: hidden;
@@ -286,8 +286,8 @@
         <div class="sliding-background crt">
           <div class="navContainer">
             <div class="navArt">
-              <img id="char" src="/assets/images/char.png"/>
-              <img id="room" src="/assets/images/room.png"/>
+              <img id="char" src="https://anitanotto.com/assets/images/char.png"/>
+              <img id="room" src="https://anitanotto.com/assets/images/room.png"/>
               <nav class="textBox">Welcome to<br/>My GitHub<br/>README!</nav>
             </div>
 

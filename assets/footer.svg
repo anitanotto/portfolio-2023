@@ -21,7 +21,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url("/assets/images/pixeltile.png") repeat;
+          background: url("https://anitanotto.com/assets/images/pixeltile.png") repeat;
           -webkit-animation: bgScroll 30s steps(100, end) infinite;
           animation: bgScroll 30s steps(100, end) infinite;
           height: 100%;
@@ -55,7 +55,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url("/assets/images/wordtile.png") repeat;
+          background: url("http://anitanotto.com/assets/images/wordtile.png") repeat;
           -webkit-animation: textScroll 30s steps(100, end) infinite;
           animation: textScroll 30s steps(100, end) infinite;
           overflow: hidden;
