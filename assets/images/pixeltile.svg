@@ -1,0 +1,15 @@
+<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="2.55144" width="12.09875" y="0.14401" x="-11.91354" stroke="#ea34a8" fill="#ea34a8"/>
+  <rect id="svg_3" height="0" width="0.0823" y="9.60901" x="-9.19749" stroke="#ea34a8" fill="#fa50fa"/>
+  <line stroke="#ea34a8" id="svg_15" y2="15" x2="35.85122" y1="15" x1="-5.85122" fill="none"/>
+  <line id="svg_16" y2="27.59655" x2="30" y1="-4.54385" x1="26.49122" stroke="#ea34a8" fill="none"/>
+  <line id="svg_17" y2="32.15796" x2="30" y1="-3.28069" x1="12.94735" stroke="#ea34a8" fill="none"/>
+  <rect stroke-width="0" id="svg_23" height="15" width="15" y="0" x="15" stroke="#fc50fa" fill="#fc50fa"/>
+  <rect id="svg_24" height="14.96471" width="14.82353" y="0" x="0" stroke-width="0" stroke="#fc50fa" fill="#ea34a8"/>
+  <rect id="svg_25" height="14.96471" width="14.82353" y="15.03529" x="15.17647" stroke-width="0" stroke="#fc50fa" fill="#ea34a8"/>
+  <rect stroke-width="0" id="svg_26" height="15" width="15" y="15" x="0" stroke="#fc50fa" fill="#fc50fa"/>
+ </g>
+</svg>

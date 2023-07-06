@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 1012 316" width="1012" height="316" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 1012 158" width="1012" height="158" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -7,7 +7,7 @@
         }
 
         .container {
-          height: 316px;
+          height: 158px;
           overflow: hidden;
           --m:
                 conic-gradient(from 135deg at top   ,#0000,#000 1deg 89deg,#0000 90deg) top   /2rem 100% repeat-x;
@@ -17,11 +17,11 @@
         }
 
         .sliding-background {
-          max-height: 316px;
+          max-height: 158px;
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url("https://anitanotto.com/assets/images/pixeltile.png") repeat;
+          background: url("data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%2230%22%20height%3D%2230%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%0A%20%3Cg%3E%0A%20%20%3Ctitle%3ELayer%201%3C%2Ftitle%3E%0A%20%20%3Crect%20id%3D%22svg_2%22%20height%3D%222.55144%22%20width%3D%2212.09875%22%20y%3D%220.14401%22%20x%3D%22-11.91354%22%20stroke%3D%22%23ea34a8%22%20fill%3D%22%23ea34a8%22%2F%3E%0A%20%20%3Crect%20id%3D%22svg_3%22%20height%3D%220%22%20width%3D%220.0823%22%20y%3D%229.60901%22%20x%3D%22-9.19749%22%20stroke%3D%22%23ea34a8%22%20fill%3D%22%23fa50fa%22%2F%3E%0A%20%20%3Cline%20stroke%3D%22%23ea34a8%22%20id%3D%22svg_15%22%20y2%3D%2215%22%20x2%3D%2235.85122%22%20y1%3D%2215%22%20x1%3D%22-5.85122%22%20fill%3D%22none%22%2F%3E%0A%20%20%3Cline%20id%3D%22svg_16%22%20y2%3D%2227.59655%22%20x2%3D%2230%22%20y1%3D%22-4.54385%22%20x1%3D%2226.49122%22%20stroke%3D%22%23ea34a8%22%20fill%3D%22none%22%2F%3E%0A%20%20%3Cline%20id%3D%22svg_17%22%20y2%3D%2232.15796%22%20x2%3D%2230%22%20y1%3D%22-3.28069%22%20x1%3D%2212.94735%22%20stroke%3D%22%23ea34a8%22%20fill%3D%22none%22%2F%3E%0A%20%20%3Crect%20stroke-width%3D%220%22%20id%3D%22svg_23%22%20height%3D%2215%22%20width%3D%2215%22%20y%3D%220%22%20x%3D%2215%22%20stroke%3D%22%23fc50fa%22%20fill%3D%22%23fc50fa%22%2F%3E%0A%20%20%3Crect%20id%3D%22svg_24%22%20height%3D%2214.96471%22%20width%3D%2214.82353%22%20y%3D%220%22%20x%3D%220%22%20stroke-width%3D%220%22%20stroke%3D%22%23fc50fa%22%20fill%3D%22%23ea34a8%22%2F%3E%0A%20%20%3Crect%20id%3D%22svg_25%22%20height%3D%2214.96471%22%20width%3D%2214.82353%22%20y%3D%2215.03529%22%20x%3D%2215.17647%22%20stroke-width%3D%220%22%20stroke%3D%22%23fc50fa%22%20fill%3D%22%23ea34a8%22%2F%3E%0A%20%20%3Crect%20stroke-width%3D%220%22%20id%3D%22svg_26%22%20height%3D%2215%22%20width%3D%2215%22%20y%3D%2215%22%20x%3D%220%22%20stroke%3D%22%23fc50fa%22%20fill%3D%22%23fc50fa%22%2F%3E%0A%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A") repeat;
           -webkit-animation: bgScroll 30s steps(100, end) infinite;
           animation: bgScroll 30s steps(100, end) infinite;
           height: 100%;
@@ -55,7 +55,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url("http://anitanotto.com/assets/images/wordtile.png") repeat;
+          background: url("data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%22419.19%22%20height%3D%2253.53%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%3Cg%20id%3D%22Layer_1%22%3E%0A%20%20%3Ctitle%3ELayer%201%3C%2Ftitle%3E%0A%20%20%3Ctext%20stroke%3D%22%23000%22%20xml%3Aspace%3D%22preserve%22%20text-anchor%3D%22start%22%20font-family%3D%22Noto%20Sans%20JP%22%20font-size%3D%2224%22%20id%3D%22svg_2%22%20y%3D%2222.35292%22%20x%3D%220%22%20stroke-width%3D%220%22%20fill%3D%22%23000000%22%3E%F0%9F%A9%B5%F0%9F%A9%B7%F0%9F%A9%B5%F0%9F%A9%B7%F0%9F%A9%B5%F0%9F%A9%B7%F0%9F%A9%B5%F0%9F%A9%B7%F0%9F%A9%B5%F0%9F%A9%B7%F0%9F%A9%B5%F0%9F%A9%B7%F0%9F%A9%B5%F0%9F%A9%B7%3C%2Ftext%3E%0A%20%20%3Ctext%20xml%3Aspace%3D%22preserve%22%20text-anchor%3D%22start%22%20font-family%3D%22%27monospace%27%22%20font-size%3D%2221.5%22%20id%3D%22svg_6%22%20y%3D%2246.88236%22%20x%3D%2212.35263%22%20stroke-width%3D%220%22%20stroke%3D%22%23000%22%20fill%3D%22%2361d4ff%22%3EWeb%20Dev%20Web%20Dev%20Web%20Dev%20Web%20Dev%3C%2Ftext%3E%0A%20%3C%2Fg%3E%0A%3C%2Fsvg%3E") repeat;
           -webkit-animation: textScroll 30s steps(100, end) infinite;
           animation: textScroll 30s steps(100, end) infinite;
           overflow: hidden;
