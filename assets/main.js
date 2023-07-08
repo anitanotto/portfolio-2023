@@ -47,7 +47,7 @@ for (const bar of windows) {
         bar.parentNode.style.left = event.pageX - bar.offsetWidth / 2 + "px";
         let targetY = event.screenY - (window.screen.availHeight - window.innerHeight)
 
-        bar.parentNode.style.top = targetY - (bar.offsetHeight / 2) + "px";
+        bar.parentNode.style.top = targetY - (bar.offsetHeight / 2 - 1) + "px";
           
         document.removeEventListener("mousemove", onMouseMove);
         iframes.forEach(e => e.style.pointerEvents = 'auto')
