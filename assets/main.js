@@ -13,6 +13,9 @@ const windows = document.querySelectorAll(".title-bar");
 for (const bar of windows) {
   bar.onmousedown = function (event) {
     if (event.button === 0 && event.target.nodeName !== "BUTTON") {
+      event.preventDefault()
+      const iframes = document.querySelectorAll('iframe')
+      iframes.forEach(e => e.style.pointerEvents = 'none')
       // (1) prepare to moving: make absolute and on top by z-index
       bar.parentNode.style.position = "absolute";
       bar.parentNode.style.zIndex = 1000;
@@ -44,9 +47,10 @@ for (const bar of windows) {
         bar.parentNode.style.left = event.pageX - bar.offsetWidth / 2 + "px";
         let targetY = event.screenY - (window.screen.availHeight - window.innerHeight)
 
-        bar.parentNode.style.top = targetY - bar.offsetHeight / 2 + "px";
+        bar.parentNode.style.top = targetY - (bar.offsetHeight / 2 - 1) + "px";
           
         document.removeEventListener("mousemove", onMouseMove);
+        iframes.forEach(e => e.style.pointerEvents = 'auto')
         bar.onmouseup = null;
       };
     }
