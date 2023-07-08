@@ -13,42 +13,37 @@ const windows = document.querySelectorAll(".title-bar");
 for (const bar of windows) {
   bar.onmousedown = function (event) {
     if (event.button === 0 && event.target.nodeName !== "BUTTON") {
-      // (1) prepare to moving: make absolute and on top by z-index
-      bar.parentNode.style.position = "absolute";
-      bar.parentNode.style.zIndex = 1000;
 
-      // move it out of any current parents directly into body
-      // to make it positioned relative to the body
-      document.body.append(bar.parentNode);
 
-      // centers the ball at (pageX, pageY) coordinates
-      function moveAt(pageX, pageY) {
-        bar.parentNode.style.left = pageX - bar.offsetWidth / 2 + "px";
-        bar.parentNode.style.top = pageY - bar.offsetHeight / 2 + "px";
-      }
+        // (1) prepare to moving: make absolute and on top by z-index
+        bar.parentNode.style.position = 'absolute';
+        bar.parentNode.style.zIndex = 1000;
 
-      // move our absolutely positioned ball under the pointer
-      moveAt(event.pageX, event.pageY);
+        // move it out of any current parents directly into body
+        // to make it positioned relative to the body
+        document.querySelector('#overlay').append(bar.parentNode);
 
-      function onMouseMove(event) {
+        // centers the ball at (pageX, pageY) coordinates
+        function moveAt(pageX, pageY) {
+          bar.parentNode.style.left = pageX - bar.offsetWidth / 2 + 'px';
+          bar.parentNode.style.top = pageY - bar.offsetHeight / 2 + 'px';
+        }
+
+        // move our absolutely positioned ball under the pointer
         moveAt(event.pageX, event.pageY);
-      }
 
-      // (2) move the ball on mousemove
-      document.addEventListener("mousemove", onMouseMove);
+        function onMouseMove(event) {
+          moveAt(event.pageX, event.pageY);
+        }
 
-      // (3) drop the ball, remove unneeded handlers
-      bar.onmouseup = function (event) {
+        // (2) move the ball on mousemove
+        document.addEventListener('mousemove', onMouseMove);
 
-        bar.parentNode.style.position = "fixed";
-        bar.parentNode.style.left = event.pageX - bar.offsetWidth / 2 + "px";
-        let targetY = event.screenY - (window.screen.availHeight - window.innerHeight)
-
-        bar.parentNode.style.top = targetY - bar.offsetHeight / 2 + "px";
-          
-        document.removeEventListener("mousemove", onMouseMove);
-        bar.onmouseup = null;
-      };
+        // (3) drop the ball, remove unneeded handlers
+        bar.onmouseup = function() {
+            document.removeEventListener('mousemove', onMouseMove);
+            bar.onmouseup = null;
+        };
     }
 
     bar.ondragstart = function () {
