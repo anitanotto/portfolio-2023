@@ -27,7 +27,7 @@ for (const bar of windows) {
       // centers the ball at (pageX, pageY) coordinates
       function moveAt(pageX, pageY) {
         bar.parentNode.style.left = pageX - bar.offsetWidth / 2 + "px";
-        bar.parentNode.style.top = pageY - (bar.offsetHeight / 2 + 1) + "px";
+        bar.parentNode.style.top = pageY - (bar.offsetHeight / 2) + "px";
       }
 
       // move our absolutely positioned ball under the pointer
@@ -44,10 +44,10 @@ for (const bar of windows) {
       bar.onmouseup = function (event) {
 
         bar.parentNode.style.position = "fixed";
-        bar.parentNode.style.left = event.pageX - bar.offsetWidth / 2 + "px";
+        //bar.parentNode.style.left = event.pageX - bar.offsetWidth / 2 + "px";
         let targetY = event.screenY - (window.screen.availHeight - window.innerHeight)
 
-        bar.parentNode.style.top = targetY - (bar.offsetHeight / 2 - 1) + "px";
+        bar.parentNode.style.top = targetY - (bar.offsetHeight / 2 - 4) + "px";
           
         document.removeEventListener("mousemove", onMouseMove);
         iframes.forEach(e => e.style.pointerEvents = 'auto')
