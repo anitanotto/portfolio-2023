@@ -55,7 +55,7 @@ A local antique store commissioned me to build their first website. Work in prog
     </div>
   </div>
   <div class="window-body">
-<img class="normalImg" alt="Screenshot of Guilty Gear Frame Data API App" src="/assets/images/gg.gif">
+<img class="normalImg" alt="Screenshot of Guilty Gear Frame Data API App" src="/assets/images/gg.webp">
 </div>
 </div>
 A RESTful API serving frame data, with a script to scrape new data when it is updated and an app to display the data. The live site is available [here](https://ggst-framedata.onrender.com/) and the code repository is [here](https://github.com/anitanotto/ggst-framedata).
