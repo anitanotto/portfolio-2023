@@ -1,5 +1,5 @@
 ---
-title: Hi, I'm Anita!
+title: Anita Notto - Portfolio & Blog
 description: Full-stack Web Developer & Freelancer
 layout: default
 ---
@@ -21,6 +21,7 @@ I come from a customer service background, so I know all about what it's like to
     </div>
 
     <div class="title-bar-controls">
+        <button class="close" aria-label="Close"></button>
     </div>
   </div>
   <div class="window-body">
@@ -30,6 +31,7 @@ I come from a customer service background, so I know all about what it's like to
 A point of sale web application that you can use to take card payments without any extra hardware on any device that can run a browser, even mobile! The live site is available [here](https://magical-merchant.onrender.com/) and the code repository is [here](https://github.com/anitanotto/magical-merchant).
 
 #### Here are some of my personal and freelance projects:
+##### The Gallery on 15
 <div class="window">
   <div class="title-bar">
     <div class="title-bar-text">
@@ -37,6 +39,7 @@ A point of sale web application that you can use to take card payments without a
     </div>
 
     <div class="title-bar-controls">
+        <button class="close" aria-label="Close"></button>
     </div>
   </div>
   <div class="window-body">
@@ -45,6 +48,8 @@ A point of sale web application that you can use to take card payments without a
 </div>
 A local antique store commissioned me to build their first website. Work in progress, but the code repository is available [here](https://github.com/anitanotto/the-gallery-on-15).
 
+
+##### Guilty Gear Strive Frame Data API
 <div class="window">
   <div class="title-bar">
     <div class="title-bar-text">
@@ -52,6 +57,7 @@ A local antique store commissioned me to build their first website. Work in prog
     </div>
 
     <div class="title-bar-controls">
+        <button class="close" aria-label="Close"></button>
     </div>
   </div>
   <div class="window-body">
@@ -66,33 +72,34 @@ A RESTful API serving frame data, with a script to scrape new data when it is up
 
 Let me know if you have a project or opportunity that you think would be a good fit for me, or if you want to chat about arcade games or manga:
 
-<div id="contactFormMobile" class="window" style="position: static;">
+<div id="contactFormMobile" class="window" style="min-width: 222px; position: static;">
   <div class="title-bar">
     <div class="title-bar-text">
       Contact Me!
     </div>
 
     <div class="title-bar-controls">
+        <button class="close" aria-label="Close"></button>
     </div>
   </div>
   <div class="window-body">
-    <form id="cformMobile" class="contact" name="contact" method="POST" action="/submit" netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded" netlify="">
+    <form id="cform-mobile" class="contact" name="contact-mobile" method="POST" action="/submit" netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded" netlify="">
       <div class="field-row-stacked">
         <label for="text18">Your Name:</label>
-        <input required="" name="name" id="text18" type="text" />
+        <input required="" name="name-mobile" id="text18" type="text" />
       </div>
       <div class="field-row-stacked">
         <label for="text19">Your Email Address:</label>
-        <input required="" name="email" id="text19" type="email" />
+        <input required="" name="email-mobile" id="text19" type="email" />
       </div>
       <div class="field-row-stacked">
         <label for="text20">Your Message:</label>
-        <textarea required="" name="message" id="text20" rows="8"></textarea>
-        <p style="display:none;"><label>Don't fill this out:<input name="bot-field"></label></p>
+        <textarea required="" name="message-mobile" id="text20" rows="8"></textarea>
+        <p style="display:none;"><label>Don't fill this out:<input name="bot-field-mobile"></label></p>
       </div>
 
       <section class="field-row" style="justify-content: flex-end">
-        <input type="submit" name="submit" value="Send!">
+        <input type="submit" name="submit-mobile" value="Send!">
       </section>
     </form>
   </div>

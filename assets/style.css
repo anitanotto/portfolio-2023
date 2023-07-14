@@ -573,3 +573,7 @@ input:not([type=submit]), textarea {
     width: 93.39px;
     height: 17px;
 }
+
+.mobileForm {
+    min-width: 222px;
+}
