@@ -82,7 +82,7 @@ Let me know if you have a project or opportunity that you think would be a good 
         <button class="close" aria-label="Close"></button>
     </div>
   </div>
-  <div class="window-body">
+  <div class="window-body" style="color: black;">
     <form id="cform-mobile" class="contact" name="contact-mobile" method="POST" action="/submit" netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded" netlify="">
       <div class="field-row-stacked">
         <label for="text18">Your Name:</label>
