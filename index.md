@@ -49,11 +49,11 @@ A point of sale web application that you can use to take card payments without a
 A local antique store commissioned me to build their first website. Work in progress, but the code repository is available [here](https://github.com/anitanotto/the-gallery-on-15).
 
 
-##### Guilty Gear Strive Frame Data API
+##### When's My Turn? Frame Data API
 <div class="window">
   <div class="title-bar">
     <div class="title-bar-text">
-      Guilty Gear Strive Frame Data API
+      When's My Turn? Frame Data API
     </div>
 
     <div class="title-bar-controls">
@@ -61,10 +61,10 @@ A local antique store commissioned me to build their first website. Work in prog
     </div>
   </div>
   <div class="window-body">
-<img class="normalImg" alt="Screenshot of Guilty Gear Frame Data API App" src="/assets/images/gg.webp">
+<img class="normalImg" alt="Screenshot of When's My Turn? Frame Data API App" src="/assets/images/wmt.webp">
 </div>
 </div>
-A RESTful API serving frame data, with a script to scrape new data when it is updated and an app to display the data. The live site is available [here](https://ggst-framedata.onrender.com/) and the code repository is [here](https://github.com/anitanotto/ggst-framedata).
+An API that scrapes and serves frame data from games by Arc System Works including Blazblue and Guilty Gear. API documentation is available [here](https://whensmyturn.cyclic.app/api/), an app I built utilizing the api is [here](https://whensmyturn.cyclic.app/), and the code repository is [here](https://github.com/anitanotto/whensmyturn/).
 
 **Some of my other clients** - I've volunteered with [48in48](https://48in48.org/) to work on teams to help build sites for the [Atlanta International Night Market](https://atlnightmarket.org/) and [Decatur Arts Alliance](https://decaturartsalliance.org/).
 
