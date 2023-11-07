@@ -64,7 +64,7 @@ A local antique store commissioned me to build their first website. Work in prog
 <img class="normalImg" alt="Screenshot of When's My Turn? Frame Data API App" src="/assets/images/wmt.webp">
 </div>
 </div>
-An API that scrapes and serves frame data from games by Arc System Works including Blazblue and Guilty Gear. API documentation is available [here](https://whensmyturn.cyclic.app/api/), an app I built utilizing the api is [here](https://whensmyturn.cyclic.app/), and the code repository is [here](https://github.com/anitanotto/whensmyturn/).
+An API that scrapes and serves frame data from games by Arc System Works including Blazblue and Guilty Gear. API documentation is available [here](https://whensmyturn.cyclic.app/api/), an app I built utilizing the api is [here](https://whensmyturn.cyclic.app/), and the code repository is [here](https://github.com/anitanotto/whens-my-turn/).
 
 **Some of my other clients** - I've volunteered with [48in48](https://48in48.org/) to work on teams to help build sites for the [Atlanta International Night Market](https://atlnightmarket.org/) and [Decatur Arts Alliance](https://decaturartsalliance.org/).
 
